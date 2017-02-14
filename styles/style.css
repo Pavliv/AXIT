@@ -44,8 +44,9 @@ a {
 	transition: all .3s ease;
 }
 a:hover {
-	color: #ff9b51;
+	color: #ff8b38;
 }
+/*SECTION 1*/
 .section1 {
 	background: url("../images/section1.jpg") no-repeat center;
 	background-size: cover;
@@ -70,9 +71,10 @@ a:hover {
 	color: #fff;
 	margin-bottom: 30px;
 }
-button:hover {
+button.first_button:hover {
 	color: #ff9b51;
 }
+/*SECTION 2*/
 .section2 li {
 	display: inline;
 	padding-left: 30px;
@@ -96,4 +98,34 @@ button:hover {
 }
 .social-description h5 {
 	margin: 0 0 5px;
+}
+/*SECTION 3*/
+.section3 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.tabs_effect {
+	width: 200px;
+	float: left;
+	height: 200px;
+}
+.additaonal_inf{
+	width: 600px;
+	float: left;
+}
+.section3 ul {
+	list-style: none;
+}
+.section3 button {
+	border: 1px solid #fff;
+	background-color: #333333;
+	color: #ffffff;
+	padding: 20px;
+}
+button.tab_buttons:hover {
+	background-color: #ff8b38; 
+}
+.section3 img {
+	width: 200px;
+	padding: auto;
 }
