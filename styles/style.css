@@ -54,6 +54,14 @@ a:hover {
 	height:2px;
 	width: 80px;
 }
+.first_button {
+	margin-top: 20px;
+	border: 1px solid #fff;
+	background-color: transparent;
+	padding: 10px 25px 10px 25px;
+	color: #fff;
+	margin-bottom: 30px;
+}
 /*SECTION 1*/
 .section1 {
 	background: url("../images/section1.jpg") no-repeat center;
@@ -72,14 +80,6 @@ a:hover {
 }
 .section1 img {
 	margin: 50px 0 0 50px;
-}
-.section1 button {
-	margin-top: 20px;
-	border: 1px solid #fff;
-	background-color: transparent;
-	padding: 5px 10px 5px 10px;
-	color: #fff;
-	margin-bottom: 30px;
 }
 button.first_button:hover {
 	color: #ff9b51;
@@ -105,7 +105,7 @@ button.first_button:hover {
 }
 .section2 p {
 	font-size: 12px;
-	color: #d2d2d4; 
+	color: #9a9a9a;
 }
 .social-description h5 {
 	font-size: 17px;
@@ -132,7 +132,7 @@ button.first_button:hover {
 }
 .additaonal_inf p {
 	font-size: 14px;
-	color: #d2d2d4;
+	color: #9a9a9a;
 }
 .section3 ul {
 	list-style: none;
@@ -182,7 +182,7 @@ button.tab_button_download:hover{
 .section4 p {
 	margin-top: 25px;
 	font-size: 14px;
-	color: #d2d2d4;
+	color: #9a9a9a;
 }
 .section4 .s4p {
 	margin-top: 7px;
@@ -216,7 +216,7 @@ button.tab_button_download:hover{
 .section5 p {
 	margin-top: 25px;
 	font-size: 14px;
-	color: #d2d2d4;
+	color: #9a9a9a;
 }
 .section5 img {
 	margin-left: 150px;
@@ -237,7 +237,7 @@ button.tab_button_download:hover{
 .section6 p {
 	margin-top: 25px;
 	font-size: 14px;
-	color: #d2d2d4;
+	color: #9a9a9a;
 }
 .section6 h2 {
 	font-size: 30px;
@@ -270,8 +270,93 @@ button.tab_button_download:hover{
 .section7 p {
 	margin-top: 25px;
 	font-size: 14px;
-	color: #d2d2d4;
+	color: #9a9a9a;
 }
 .section7 h2 {
 	font-size: 30px;
+}
+/*SECTION 8*/
+.section8 {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.section8 .orange_line {
+	margin-left: auto;
+	margin-right: auto;
+}
+.section8 .sec8_p, li {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #9a9a9a;
+}
+.section8 h2 {
+	font-size: 30px;
+}
+.dialog_window {
+	display: inline-block;
+	width: 25%;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.section8 ul {
+	padding-left: 0;
+	margin-top: 40px;
+	list-style: none;
+}
+.section8 li {
+	padding: 20px 10px 20px 10px;
+	background-color: #f5f5f5;
+}
+.section8 .fa {
+	font-size: 60px;
+	float: left;
+	margin-top: 20px;
+	color: #9a9a9a;
+}
+.section8 h6 {
+	text-align: left;
+	margin: 20px 0 0 70px;
+	font-size: 20px;
+	color: #606060;
+}
+.section8 .sec8_p2 {
+	text-align: left;
+	margin: 5px 0 0 70px;
+	font-size: 14px;
+	color: #9a9a9a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 9*/
+.section9 {
+	background: url("../images/section9.jpg") no-repeat center;
+	background-size: cover;
+	padding: 50px 0 100px 0;
+	text-align: center;
+}
+.section9 .orange_line {
+	margin-left: auto;
+	margin-right: auto;
+}
+.section9 p {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #d2d2d4;
+}
+.section9 h2 {
+	font-size: 30px;
+	color: #ffffff;
 }
