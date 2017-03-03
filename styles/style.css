@@ -328,18 +328,6 @@ button.tab_button_download:hover{
 	font-size: 14px;
 	color: #9a9a9a;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*SECTION 9*/
 .section9 {
 	background: url("../images/section9.jpg") no-repeat center;
@@ -359,4 +347,58 @@ button.tab_button_download:hover{
 .section9 h2 {
 	font-size: 30px;
 	color: #ffffff;
+}
+/*SECTION 10*/
+.section10 {
+	padding: 70px 0;
+	text-align: center;
+}
+.section10 p {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #d2d2d4;
+}
+.section10 h2 {
+	font-size: 30px;
+}
+.section10 .orange_line {
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact {
+	width: 580px;
+	float: left;
+}
+.section10 input {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+#message {
+	line-height: 15px;
+	height: 155px;
+}
+/*FOOTER*/
+.footer {
+	padding: 10px 0;
+	text-align: center;
+	background-color: #000000;
+}
+.footer li {
+	display: inline;
+	margin: auto;
+	padding: 0 10px;
+}
+.footer ul {
+	padding: 0;
+}
+.footer .fa {
+	font-size: 25px;
+	color: #d2d2d4;
+}
+.footer p {
+	font-size: 10px;
+	color: #d2d2d4;
 }
