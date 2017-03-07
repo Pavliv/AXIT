@@ -7,7 +7,7 @@ body,
 	font-family: 'Open Sans', sans-serif;
 }
 .container {
-	max-width: 1200px;
+	max-width: 1100px;
 	margin: auto;
 	padding: 0 15px;
 }
@@ -24,9 +24,6 @@ a {
 button {
 	transition: all .3s ease;
 }
-a:hover {
-	color: #ff8b38;
-}
 .orange_line{
 	background-color: #ff9b51;
 	height:2px;
@@ -34,11 +31,12 @@ a:hover {
 }
 .first_button {
 	margin-top: 20px;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	background-color: transparent;
-	padding: 10px 25px 10px 25px;
+	padding: 10px 32px 10px 32px;
 	color: #fff;
 	margin-bottom: 30px;
+	font-weight: bold;
 }
 p {
 	margin-top: 25px;
@@ -70,7 +68,10 @@ h3 {
 }
 .header a {
 	color: #9a9a9a;
-	margin-left: 15px;
+	margin-left: 30px;
+}
+a:hover {
+	color: #ff8b38;
 }
 .header img {
 	height: 30px; 
@@ -82,45 +83,84 @@ h3 {
 	padding: 10px 0 100px 0;
 }
 .section1 h1 {
-	width: 45%;
+	width: 100%;
 	font-size: 30px;
 	color: #ffffff;
 }
 .section1 p {
-	width: 40%;
+	width: 90%;
 	color: #ffffff;
 }
 .section1 img {
-	margin: 50px 0 0 50px;
+	margin-top: 70px;
 }
 button.first_button:hover {
 	color: #ff9b51;
 }
+.main_title{
+	width: 50%;
+	margin: 0;
+	float: left;
+}
+.enter {
+	margin-top: 100px;
+	width: 32%;
+	float: right;
+	text-align: center;
+	background-color: #ffffff;
+}
+.enter h5 {
+	margin: 0;
+	padding: 15px;
+	background-color: #f5f5f5;
+	font-size: 18px;
+}
+.enter span {
+	color: #ff9b51;
+}
+.enter input {
+	margin: 15px;
+	padding: 15px;
+	width: 80%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+.enter button {
+	margin-top: 15px;
+	padding: 20px 0;
+	width: 100%;
+	border: none;
+	background-color: #ff9b51;
+	color:#ffffff;
+}
 /*SECTION 2*/
 .section2 li {
 	display: inline;
-	padding-left: 50px;
+	padding-left: 45px;
 }
 .section2 ul {
+	padding-top: 5px;
+	align-items: center;
 	text-align: right;
 }
 .section2 .fa {
-	font-size: 40px;
+	font-size: 50px;
 }
 .section2 {
 	padding: 5px 0;
 	box-shadow: 0 2px 5px #000;
 }
 .social-description {
-	width: 550px;
+	width: 400px;
 	float: left;
 }
 .section2 p {
-	font-size: 12px;
+	margin:0 0 10px 0;
+	font-size: 14px;
 }
 .social-description h5 {
-	font-size: 17px;
-	margin: 0 0 5px;
+	font-size: 19px;
+	margin: 0 0 3px;
 }
 /*SECTION 3*/
 .section3 {
