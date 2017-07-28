@@ -24,6 +24,7 @@ a {
 button {
 	transition: all .3s ease;
 	outline: none;
+	cursor: pointer;
 }
 .orange_line{
 	background-color: #ff9b51;
@@ -132,12 +133,19 @@ button.first_button:hover {
 	width: 100%;
 	border: none;
 	background-color: #ff9b51;
-	color:#ffffff;
+	color: #ffffff;
+	cursor: pointer;
 }
 /*SECTION 2*/
 .section2 li {
 	display: inline;
 	padding-left: 45px;
+}
+.section2 i {
+	color: #ccc;
+}
+.section2 i:hover {
+	color: #ff9b51;
 }
 .section2 ul {
 	padding-top: 5px;
